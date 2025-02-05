@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h2 style="font-size: 100px; background-color: aquamarine;padding: 10px;">MY FIRST JAVA SCRIPT</h2> 
+   <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">Click me to display date and time</button>
+   <p id="demo"></p>
+
+   <button onclick="document.getElementById('mypic').src = './bulb.jpeg'">turn on the light</button>
+   <img id="mypic" src="./bulb off.jpeg" alt="" style="width: 100px;" style="margin-top: 10px;">
+   <button onclick="document.getElementById('mypic').src = './bulb off.jpeg'">turn off the light</button>
+</body>
+
+
+<!-- Exercises
+1. Use Javascript to change the fontSize of an element with id “text”.
+2. Use Javascript to hide and show an element -->
+
+<p id="text"> Javascript has magic</p>
+<button onclick="document.getElementById('text').style.fontSize='100px'">click on me</button>
+
+<div style="margin-bottom: 10px;">
+    <button onclick="document.getElementById('text').style.display='none'">hide</button> 
+<button onclick="document.getElementById('text').style.display='block'">show</button>
+</div>
+<p id="text"> Javascript has magic</p>
+<body style="background-color: wheat;"></body>
+
+
+
+</body>
+
+</html>
